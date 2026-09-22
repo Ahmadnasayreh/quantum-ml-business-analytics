@@ -1,0 +1,3 @@
+Dataset,Samples,Features (raw),Numeric,Categorical,Positive class,Positive rate,Imbalance ratio,Leakage columns removed,Source,After undersampling
+Bank Customer Churn,10000,10,8,2,2037,0.2037,3.91,--,Kaggle: Bank Customer Churn Prediction (public),4074
+Bank Marketing,4521,15,6,9,521,0.1152,7.68,duration,"UCI ML Repository: Bank Marketing (bank.csv, 10% subset, public)",1042

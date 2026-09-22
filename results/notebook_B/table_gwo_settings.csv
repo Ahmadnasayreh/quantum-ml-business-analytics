@@ -1,0 +1,9 @@
+Setting,Value
+Population size (N),8
+Maximum iterations (T),12
+Objective-evaluation budget,96
+Initial exploration coefficient a0,2.0
+Decay schedule for a,linear: a(t) = a0 (1 - t/T)
+Initialization strategy,lhs
+Stopping criterion,alpha improvement <= 0.0001 for 4 consecutive iterations
+Fitness function,mean inner-CV F1 (positive class)

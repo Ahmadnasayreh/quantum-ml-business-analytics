@@ -1,0 +1,5 @@
+model,n_folds,selected_depths,modal_depth,mean_grad_var_at_selected_depth,mean_grad_var_over_search_range,advantage_ratio,claim_supported,dataset
+VQC,30,"[1, 2, 3, 4, 5, 6]",4,,0.02309864455559699,,False,Bank Customer Churn
+QNN,30,"[1, 2, 3, 4, 5, 6]",1,,0.02309864455559699,,False,Bank Customer Churn
+VQC,30,"[1, 2, 3, 4, 5, 6]",2,,0.02309864455559699,,False,Bank Marketing
+QNN,30,"[1, 2, 3, 4, 5, 6]",3,,0.02309864455559699,,False,Bank Marketing

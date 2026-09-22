@@ -1,0 +1,3 @@
+Dataset,Samples,Features (raw),Numeric,Categorical,Positive class,Positive rate,Imbalance ratio,Leakage columns removed,Source,After undersampling
+HR Promotion,54808,11,6,5,4668,0.0852,10.74,--,Kaggle/AV: HR Analytics Employee Promotion (public),9336
+Loan Approval,614,11,5,6,422,0.6873,0.45,--,Analytics Vidhya: Loan Prediction Problem (public),384
