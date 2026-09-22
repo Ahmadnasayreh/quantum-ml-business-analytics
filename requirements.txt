@@ -1,0 +1,25 @@
+# Exact versions recorded in the run manifest (results/notebook_*/MANIFEST.json)
+# of the execution that produced every published result.
+# Python 3.10.11
+#
+#   python -m venv .venv
+#   .venv\Scripts\activate          (Windows)   |   source .venv/bin/activate   (Linux/macOS)
+#   pip install -r requirements.txt
+
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+pennylane==0.42.3
+imbalanced-learn==0.14.2
+xgboost==3.2.0
+shap==0.49.1
+matplotlib==3.10.9
+
+# Not recorded in the manifest; any recent version works.
+# scikit-posthocs is optional: without it the Nemenyi pairwise matrix is left
+# empty, while the Friedman test and the critical difference are still computed.
+scikit-posthocs
+jupyter
+ipykernel
+nbformat
